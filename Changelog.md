@@ -184,6 +184,7 @@
 - DependencyReference now takes a function to a module instead of a Module
 - HarmonyImportSpecifierDependency.redirectedId removed
   - MIGRATION: Use `setId` instead
+- SystemPlugin now disabled by default
 
 # Changes to the Configuration
 
@@ -405,4 +406,4 @@ Stats preset, default, json and toString are now baked by a plugin system. Conve
 
 ---
 
-lib/dependencies/HarmonyExportImportedSpecifierDependency.js
+lib/optimize/EnsureChunkConditionsPlugin.js
