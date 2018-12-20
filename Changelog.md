@@ -181,6 +181,9 @@
 - HarmonyInitDependency removed
 - Dependency.getInitFragments deprecated
   - MIGRATION: Use `apply` `initFragements` instead
+- DependencyReference now takes a function to a module instead of a Module
+- HarmonyImportSpecifierDependency.redirectedId removed
+  - MIGRATION: Use `setId` instead
 
 # Changes to the Configuration
 
